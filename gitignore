@@ -9,3 +9,6 @@ Makefile
 
 # cmake user files
 CMakeLists.txt.user
+
+# build
+build/
