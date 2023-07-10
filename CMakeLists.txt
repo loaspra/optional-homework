@@ -6,11 +6,11 @@ enable_testing()
 
 set(SOURCES
     main.cpp
-    Pizza.cpp
+    pizza.cpp
 )
 
 set(HEADERS
-    Pizza.h
+    pizza.h
 )
 
 
