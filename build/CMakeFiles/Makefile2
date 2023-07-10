@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\olapu\Documents\Temp\Tarea2\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TareaOp.dir/all
+all: CMakeFiles/testa.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/TareaOp.dir/clean
+clean: CMakeFiles/testa.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -830,30 +830,30 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TareaOp.dir
+# Target rules for target CMakeFiles/testa.dir
 
 # All Build rule for target.
-CMakeFiles/TareaOp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaOp.dir\build.make CMakeFiles/TareaOp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaOp.dir\build.make CMakeFiles/TareaOp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\olapu\Documents\Temp\Tarea2\build\CMakeFiles --progress-num=1,2 "Built target TareaOp"
-.PHONY : CMakeFiles/TareaOp.dir/all
+CMakeFiles/testa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\olapu\Documents\Temp\Tarea2\build\CMakeFiles --progress-num=1,2,3 "Built target testa"
+.PHONY : CMakeFiles/testa.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TareaOp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olapu\Documents\Temp\Tarea2\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TareaOp.dir/all
+CMakeFiles/testa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olapu\Documents\Temp\Tarea2\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/testa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\olapu\Documents\Temp\Tarea2\build\CMakeFiles 0
-.PHONY : CMakeFiles/TareaOp.dir/rule
+.PHONY : CMakeFiles/testa.dir/rule
 
 # Convenience name for target.
-TareaOp: CMakeFiles/TareaOp.dir/rule
-.PHONY : TareaOp
+testa: CMakeFiles/testa.dir/rule
+.PHONY : testa
 
 # clean rule for target.
-CMakeFiles/TareaOp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaOp.dir\build.make CMakeFiles/TareaOp.dir/clean
-.PHONY : CMakeFiles/TareaOp.dir/clean
+CMakeFiles/testa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/clean
+.PHONY : CMakeFiles/testa.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

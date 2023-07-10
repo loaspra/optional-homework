@@ -26,7 +26,7 @@ C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/ContinuousTest.dir
 C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/ContinuousCoverage.dir
 C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/ContinuousMemCheck.dir
 C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/ContinuousSubmit.dir
-C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/TareaOp.dir
+C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/testa.dir
 C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/package.dir
 C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/package_source.dir
 C:/Users/olapu/Documents/Temp/Tarea2/build/CMakeFiles/test.dir

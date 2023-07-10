@@ -1,8 +1,14 @@
 [
 {
   "directory": "C:/Users/olapu/Documents/Temp/Tarea2/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\TareaOp.dir\\main.cpp.obj -c C:\\Users\\olapu\\Documents\\Temp\\Tarea2\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\testa.dir\\main.cpp.obj -c C:\\Users\\olapu\\Documents\\Temp\\Tarea2\\main.cpp",
   "file": "C:/Users/olapu/Documents/Temp/Tarea2/main.cpp",
-  "output": "CMakeFiles/TareaOp.dir/main.cpp.obj"
+  "output": "CMakeFiles/testa.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/olapu/Documents/Temp/Tarea2/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\testa.dir\\pizza.cpp.obj -c C:\\Users\\olapu\\Documents\\Temp\\Tarea2\\pizza.cpp",
+  "file": "C:/Users/olapu/Documents/Temp/Tarea2/pizza.cpp",
+  "output": "CMakeFiles/testa.dir/pizza.cpp.obj"
 }
 ]

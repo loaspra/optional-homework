@@ -510,24 +510,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named TareaOp
+# Target rules for targets named testa
 
 # Build rule for target.
-TareaOp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TareaOp
-.PHONY : TareaOp
+testa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testa
+.PHONY : testa
 
 # fast build rule for target.
-TareaOp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaOp.dir\build.make CMakeFiles/TareaOp.dir/build
-.PHONY : TareaOp/fast
+testa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/build
+.PHONY : testa/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaOp.dir\build.make CMakeFiles/TareaOp.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -535,7 +535,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaOp.dir\build.make CMakeFiles/TareaOp.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -543,8 +543,32 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaOp.dir\build.make CMakeFiles/TareaOp.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+pizza.obj: pizza.cpp.obj
+.PHONY : pizza.obj
+
+# target to build an object file
+pizza.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/pizza.cpp.obj
+.PHONY : pizza.cpp.obj
+
+pizza.i: pizza.cpp.i
+.PHONY : pizza.i
+
+# target to preprocess a source file
+pizza.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/pizza.cpp.i
+.PHONY : pizza.cpp.i
+
+pizza.s: pizza.cpp.s
+.PHONY : pizza.s
+
+# target to generate assembly for a file
+pizza.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testa.dir\build.make CMakeFiles/testa.dir/pizza.cpp.s
+.PHONY : pizza.cpp.s
 
 # Help Target
 help:
@@ -585,10 +609,13 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... TareaOp
+	@echo ... testa
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... pizza.obj
+	@echo ... pizza.i
+	@echo ... pizza.s
 .PHONY : help
 
 
