@@ -1,7 +1,11 @@
-# gitignore
-# ignore the files not needed to run the cmake project
+# gitignore file for a cmake project
 
-# ignore the build folder
-build/
-# ignore the cmake files
+# cmake generated files
+CMakeCache.txt
 CMakeFiles
+cmake_install.cmake
+CMakeLists.txt.user
+Makefile
+
+# cmake user files
+CMakeLists.txt.user
