@@ -1,0 +1,7 @@
+# gitignore
+# ignore the files not needed to run the cmake project
+
+# ignore the build folder
+build/
+# ignore the cmake files
+CMakeFiles
